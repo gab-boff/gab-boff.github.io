@@ -2,8 +2,6 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
-    padding: 10px;
-    background-color: #000;
      }
 
  .position-text {
@@ -46,4 +44,13 @@ ul li.list-style:nth-of-type(2n+1) {
 .nav-elements {
     padding: 0px 10px;
 
+}
+
+.logo-social-media {
+    width: 25px;
+}
+
+.logo-margin {
+    margin-top: 150px;
+    margin-left: 95%;
 }
