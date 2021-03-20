@@ -3,67 +3,7 @@
 <head>
     <meta charset="UTF-8">   
     <title>Portfólio gab-boff</title>
-    <style>
-        #foto {
-           display: block;
-           margin-right: auto;
-           margin-left: auto;
-           padding: 10px;
-           background-color: #000;
-            }
-
-        .position-text {
-            text-align: center;
-            font-family: monospace;
-        }
-            
-        #sobre {
-            font-family: cursive;
-        }
-
-        body {
-            background-color: #D1D2DB;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        }
-
-        em {
-            font-size: 20px;
-            font-weight: bold;
-            font-style: italic;
-            line-height: 15px;           
-        }
-
-        .size1 {
-            font-size:15px;
-        }
-
-        .size2 {
-            font-size:16px;
-        }
-
-        .size3 {
-            font-size:17px;
-        }
-
-        .size4 {
-            font-size:18px;
-        }
-
-        .size5 {
-            font-size:19px;
-        }
-
-        .size6 {
-            font-size:20px;
-        }
-
-        .button-position {
-            position: relative;
-            left:50%;
-        }
-
-      
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- Seu Portfólio Web deve ser estilizado usando as informações a seguir:
@@ -71,7 +11,7 @@ Defina fontes diferentes para o seu nome e para a descrição que você criou;
 Defina uma cor base de background do seu Portfólio Web ;
 Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;
 Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos; -->
-
+<div>
 <img id="foto" src="./img/foto_perfil.jpeg" alt="Foto de perfil Gabriel Boff"
     width="200px">  
   
@@ -86,16 +26,16 @@ Coloque tamanhos diferentes para os elementos da lista de habilidades que você 
  
 
 <p id="sobre" class="position-text"><em>Nascido em Caxias do Sul-RS, atualmente moro em Florianópolis-SC. Tenho 21 anos, ingressei na Trybe para me tornar um Desenvolvedor Web FullStack.</em></p> 
-
+</div>
 <br>
-
+<div>
 <ul>
-    <li class="size1">Inteligência Emocional</li>
-    <li class="size2">Comunicação</li>
-    <li class="size3">Colaboração</li>
-    <li class="size4">Pensamento Crítico</li>
-    <li class="size5">Criatividade</li>
-    <li class="size6">Liderança</li>
+    <li class="list-style">Inteligência Emocional</li>
+    <li class="list-style">Comunicação</li>
+    <li class="list-style">Colaboração</li>
+    <li class="list-style">Pensamento Crítico</li>
+    <li class="list-style">Criatividade</li>
+    <li class="list-style">Liderança</li>
 </ul>
 
 <br>
@@ -107,11 +47,13 @@ Coloque tamanhos diferentes para os elementos da lista de habilidades que você 
 
 
 <br>
-
+</div>
+<div>
 <h3>Índice</h3>
 <ul>
     <li><a href="#foto">Foto de Perfil</a></li>
     <li><a href="#sobre">Sobre mim</a></li>
 </ul>
+</div>
 </body>
 </html>

@@ -1,0 +1,39 @@
+#foto {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    background-color: #000;
+     }
+
+ .position-text {
+     text-align: center;
+     font-family: monospace;
+ }
+     
+ #sobre {
+     font-family: cursive;
+ }
+
+ body {
+     background-color: #D1D2DB;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ em {
+     font-size: 20px;
+     font-weight: bold;
+     font-style: italic;
+     line-height: 15px;           
+ }
+
+ .button-position {
+     position: relative;
+     left:50%;
+ }
+
+
+ul li.list-style:nth-of-type(2n+1) {
+    font-family: monospace;
+    font-style: italic;
+}
